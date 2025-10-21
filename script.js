@@ -165,7 +165,7 @@ document.addEventListener("DOMContentLoaded", () => {
     updateProgress();
   }
 
-  // === Multi-list loader (commented out) ===
+  
   
   function loadTasks() {
     const tasks = appData.lists[appData.selectedList] || [];

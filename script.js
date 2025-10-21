@@ -143,7 +143,7 @@ document.addEventListener("DOMContentLoaded", () => {
     localStorage.setItem("tasks", JSON.stringify(getTasksData()));
   }
 
-  // === Multi-list localStorage logic (commented out) ===
+  
   
   function saveAppData() {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(appData));
